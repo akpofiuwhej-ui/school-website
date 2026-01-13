@@ -1,0 +1,391 @@
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #060607, #101111);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(135deg, #0b5394, #073763);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background: #0c0b0b;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #073763;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #0b5394;
+    color: #fff;
+}
+
+/* ===== Sections ===== */
+.section {
+    background: #080808;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 1100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+    color: #0b5394;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.section p, 
+.section li {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* ===== Courses / Classes ===== */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.course-box {
+    background: linear-gradient(135deg, #1b1c1c, #181717);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #073763;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* ===== Lists ===== */
+ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* ===== Contact Icons ===== */
+.section p span {
+    font-weight: 600;
+    color: #073763;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: linear-gradient(135deg, #073763, #0b5394);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+    font-size: 0.95rem;
+}
+
+/* ===== Buttons (optional use) ===== */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #0b5394;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #073763;
+    transform: scale(1.05);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px 8px;
+    }
+
+    .section {
+        padding: 25px;
+        margin: 25px 15px;
+    }
+}
+body {
+    background-color:#444 ;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        font-size: 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .section h2 {
+        font-size: 28px;
+    }
+
+    .section p {
+        font-size: 20px;
+    }
+}
+/* GENERAL TEXT */
+body {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* NAVIGATION MENU (Home, About, Academics, Admission, Contact) */
+nav a {
+    font-size: 22px;      /* BIG menu text */
+    padding: 15px 20px;
+}
+
+/* HERO / WELCOME SECTION */
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* SECTION HEADINGS */
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+/* SECTION PARAGRAPHS */
+.section p {
+    font-size: 22px;
+}
+
+/* COURSE / CLASS BOX TEXT */
+.course-box {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* ===== Dark Mode Button ===== */
+.dark-btn {
+    background: #0b5394;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    margin-left: 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-btn:hover {
+    background: #073763;
+}
+
+/* ===== Dark Mode Styles ===== */
+body.dark {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #eaeaea;
+}
+
+body.dark nav {
+    background: #121212;
+}
+
+body.dark nav a {
+    color: #eaeaea;
+}
+
+body.dark nav a:hover {
+    background: #0b5394;
+}
+
+body.dark header {
+    background: linear-gradient(135deg, #000428, #004e92);
+}
+
+body.dark .section {
+    background: #1e1e1e;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+body.dark .section h2 {
+    color: #4da3ff;
+}
+
+body.dark .course-box {
+    background: linear-gradient(135deg, #232526, #414345);
+    color: #ffffff;
+}
+
+body.dark footer {
+    background: linear-gradient(135deg, #000428, #004e92);
+}
+
+body {
+    background-color: #0f172a;   /* dark blue/black */
+    color: #f8fafc;              /* soft white */
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+nav {
+    background: #020617;
+    padding: 15px;
+}
+
+nav a {
+    font-size: 22px;
+    color: #f8fafc;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #38bdf8;
+    color: #020617;
+}
+
+.section {
+    background: #020617;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1100px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+.section p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.hero {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #cbd5f5;
+}
+
+.course-box {
+    background: #0f172a;
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 22px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.course-box:hover {
+    transform: translateY(-5px);
+}
+
+::selection {
+    background: #38bdf8;
+    color: #020617;
+}
+
+*:focus {
+    outline: 3px solid #38bdf8;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .section h2 {
+        font-size: 28px;
+    }
+
+    .section p {
+        font-size: 20px;
+    }
+}

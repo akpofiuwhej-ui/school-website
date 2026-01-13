@@ -1,0 +1,160 @@
+/* ===== Dark Mode Button ===== */
+.dark-btn {
+    background: #0b5394;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    margin-left: 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-btn:hover {
+    background: #073763;
+}
+
+/* ===== Dark Mode Styles ===== */
+body.dark {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #eaeaea;
+}
+
+body.dark nav {
+    background: #121212;
+}
+
+body.dark nav a {
+    color: #eaeaea;
+}
+
+body.dark nav a:hover {
+    background: #0b5394;
+}
+
+body.dark header {
+    background: linear-gradient(135deg, #000428, #004e92);
+}
+
+body.dark .section {
+    background: #1e1e1e;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+body.dark .section h2 {
+    color: #4da3ff;
+}
+
+body.dark .course-box {
+    background: linear-gradient(135deg, #232526, #414345);
+    color: #ffffff;
+}
+
+body.dark footer {
+    background: linear-gradient(135deg, #000428, #004e92);
+}
+
+body {
+    background-color: #0f172a;   /* dark blue/black */
+    color: #f8fafc;              /* soft white */
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+nav {
+    background: #020617;
+    padding: 15px;
+}
+
+nav a {
+    font-size: 22px;
+    color: #f8fafc;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #38bdf8;
+    color: #020617;
+}
+
+.section {
+    background: #020617;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1100px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+.section p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.hero {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #cbd5f5;
+}
+
+.course-box {
+    background: #0f172a;
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 22px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.course-box:hover {
+    transform: translateY(-5px);
+}
+
+::selection {
+    background: #38bdf8;
+    color: #020617;
+}
+
+*:focus {
+    outline: 3px solid #38bdf8;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .section h2 {
+        font-size: 28px;
+    }
+
+    .section p {
+        font-size: 20px;
+    }
+}

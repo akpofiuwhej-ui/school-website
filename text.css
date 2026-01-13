@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+    nav a {
+        font-size: 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .section h2 {
+        font-size: 28px;
+    }
+
+    .section p {
+        font-size: 20px;
+    }
+}
+/* GENERAL TEXT */
+body {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* NAVIGATION MENU (Home, About, Academics, Admission, Contact) */
+nav a {
+    font-size: 22px;      /* BIG menu text */
+    padding: 15px 20px;
+}
+
+/* HERO / WELCOME SECTION */
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* SECTION HEADINGS */
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+/* SECTION PARAGRAPHS */
+.section p {
+    font-size: 22px;
+}
+
+/* COURSE / CLASS BOX TEXT */
+.course-box {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+}
