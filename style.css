@@ -432,3 +432,25 @@ nav a:focus {
         border: 1px solid #38bdf8;
     }
 }
+/* FORCE MOBILE NAV SIZE */
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 28px !important;   /* FORCE BIG TEXT */
+        padding: 22px !important;
+        margin: 10px 0 !important;
+        text-align: center;
+        background: #0f172a;
+        border-radius: 10px;
+        border: 2px solid #38bdf8;
+    }
+}
+nav a {
+    font-weight: 700;
+}
+
