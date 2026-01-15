@@ -389,3 +389,46 @@ nav a:hover {
         font-size: 20px;
     }
 }
+
+/* DESKTOP NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #020617;
+}
+
+/* NAV LINKS */
+nav a {
+    font-size: 22px;
+    padding: 15px 22px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    background: transparent;
+    text-align: center;
+}
+
+/* HOVER / TAP EFFECT */
+nav a:hover,
+nav a:focus {
+    background: #38bdf8;
+    color: #020617;
+}
+
+/* MOBILE VIEW FIX */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        font-size: 24px;          /* BIGGER TEXT */
+        padding: 18px;
+        margin: 6px 12px;
+        background: #0f172a;
+        border: 1px solid #38bdf8;
+    }
+}
