@@ -9,7 +9,36 @@
     <meta charset="UTF-8" />
     <title>Golden Thinkers Private School</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+// MOBILE MENU TOGGLE
+const menuBtn = document.getElementById("menuBtn");
+const navbar = document.getElementById("navbar");
+const links = document.querySelectorAll("#navbar a");
 
+menuBtn.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+});
+
+// SMOOTH SCROLL + ACTIVE LINK
+links.forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        // Remove active from all
+        links.forEach(l => l.classList.remove("active"));
+        this.classList.add("active");
+
+        // Scroll to section
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+        }
+
+        // Close menu on mobile
+        navbar.classList.remove("active");
+    });
+});
+</script>
     <style>
       body {
         margin: 0;
