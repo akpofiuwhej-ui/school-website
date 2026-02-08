@@ -17,7 +17,7 @@ body {
 
 /* ===== Header ===== */
 header {
-    background: linear-gradient(135deg, #0b5394, #073763);
+    background: linear-gradient(135deg, #b9b00c, #b9b00c);
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-    color: #073763;
+    color: #b9b00c;
     text-decoration: none;
     margin: 0 18px;
     font-weight: 600;
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #0b5394;
+    background: #b9b00c;
     color: #fff;
 }
 
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .section h2 {
-    color: #0b5394;
+    color: #b9b00c;
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
@@ -95,7 +95,7 @@ nav a:hover {
     text-align: center;
     border-radius: 15px;
     font-weight: 600;
-    color: #073763;
+    color: #b9b00c;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -118,12 +118,12 @@ ul li {
 /* ===== Contact Icons ===== */
 .section p span {
     font-weight: 600;
-    color: #073763;
+    color: #b9b00c;
 }
 
 /* ===== Footer ===== */
 footer {
-    background: linear-gradient(135deg, #073763, #0b5394);
+    background: linear-gradient(135deg,#b9b00c, #b9b00c);
     color: #fff;
     text-align: center;
     padding: 25px;
@@ -136,7 +136,7 @@ footer {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 28px;
-    background: #0b5394;
+    background: #b9b00c;
     color: #fff;
     text-decoration: none;
     border-radius: 30px;
@@ -145,7 +145,7 @@ footer {
 }
 
 .btn:hover {
-    background: #073763;
+    background: #b9b00c;
     transform: scale(1.05);
 }
 
@@ -231,7 +231,7 @@ nav a {
 
 /* ===== Dark Mode Button ===== */
 .dark-btn {
-    background: #0b5394;
+    background: #b9b00c;
     color: #fff;
     border: none;
     padding: 8px 14px;
@@ -243,7 +243,7 @@ nav a {
 }
 
 .dark-btn:hover {
-    background: #073763;
+    background: #b9b00c;
 }
 
 /* ===== Dark Mode Styles ===== */
@@ -261,11 +261,11 @@ body.dark nav a {
 }
 
 body.dark nav a:hover {
-    background: #0b5394;
+    background: #b9b00c;
 }
 
 body.dark header {
-    background: linear-gradient(135deg, #000428, #004e92);
+    background: linear-gradient(135deg, #847e08, #b9b00c);
 }
 
 body.dark .section {
@@ -283,7 +283,7 @@ body.dark .course-box {
 }
 
 body.dark footer {
-    background: linear-gradient(135deg, #000428, #004e92);
+    background: linear-gradient(135deg, #847e08, #b9b00c);
 }
 
 body {
@@ -308,7 +308,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #38bdf8;
+    background:  #b9b00c;
     color: #020617;
 }
 
@@ -324,7 +324,7 @@ nav a:hover {
 .section h2 {
     font-size: 36px;
     margin-bottom: 15px;
-    color: #38bdf8;
+    color:   #ede43b;
 }
 
 .section p {
@@ -362,12 +362,12 @@ nav a:hover {
 }
 
 ::selection {
-    background: #38bdf8;
+    background:   #ede43b;
     color: #020617;
 }
 
 *:focus {
-    outline: 3px solid #38bdf8;
+    outline: 3px solid   #ede43b;
 }
 
 @media (max-width: 600px) {
@@ -413,7 +413,7 @@ nav a {
 /* HOVER / TAP EFFECT */
 nav a:hover,
 nav a:focus {
-    background: #38bdf8;
+    background:   #ede43b;
     color: #020617;
 }
 
@@ -429,7 +429,7 @@ nav a:focus {
         padding: 18px;
         margin: 6px 12px;
         background: #0f172a;
-        border: 1px solid #38bdf8;
+        border: 1px solid  #ede43b;
     }
 }
 /* FORCE MOBILE NAV SIZE */
@@ -447,7 +447,7 @@ nav a:focus {
         text-align: center;
         background: #0f172a;
         border-radius: 10px;
-        border: 2px solid #38bdf8;
+        border: 2px solid  #ede43b;
     }
 }
 nav a {
